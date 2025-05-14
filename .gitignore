@@ -1,0 +1,61 @@
+# Archivos de configuración de IDE
+*.log
+*.log.gz
+*.zip
+
+# Carpetas generadas por compilación/instalación de paquetes
+node_modules/
+coverage/
+dist/
+build/
+bin/
+out/
+
+# Archivos de cache
+.DS_Store
+.cache/
+
+# Archivos de sistema/editor
+Thumbs.db
+*.tmp
+*.bak
+*.swp
+
+# Archivos de configuración de proyectos
+config/
+
+# Archivos de pruebas
+__tests__/
+test/
+tests/
+test.js
+test.jsx
+test.ts
+test.tsx
+test.spec.js
+test.spec.jsx
+test.spec.ts
+test.spec.tsx
+
+# Archivos de configuración de npm
+npm-shrinkwrap.json
+
+# Archivos de configuración de webpack
+webpack.config.js
+webpack.config.dev.js
+webpack.config.prod.js
+webpack.config.test.js
+
+# Archivos de configuración de eslint
+.eslintrc.js
+.eslintignore
+
+# Archivos de configuración de prettier
+.prettierrc.js
+.prettierignore
+
+# Archivos de configuración de husky
+.husky/
+
+# Archivos de configuración de git
+.git/
