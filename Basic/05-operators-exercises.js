@@ -39,9 +39,13 @@ console.log(5 > 10 && 15 > 20)
 // 6. Utiliza el operador lógico or
 console.log(5 < 10 || 15 < 20)
 // 7. Combina ambos operadores lógicos
-
+console.log(" Combinacion de operadores")
+console.log(((5 > 10 && 15 > 20)) < ((5 < 10 || 15 < 20)))
 // 8. Añade alguna negación
 console.log(!true)
 // 9. Utiliza el operador ternario
-
+let edad = 18
+let mensajeEdad = (edad >= 18) ?  console.log("Es mayor de edad: ", edad) : console.log("Es menor de edad: ", edad) 
 // 10. Combina operadores aritméticos, de comparáción y lógicas
+console.log(10)
+console.log(((a + b) ** b) <= (a ** b)) || (a > b)
